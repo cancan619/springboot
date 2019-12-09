@@ -1,0 +1,9 @@
+server:
+   port: 8888
+   servlet:
+      context-path: /cc
+   datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3360/cc?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+      username: root
+      password: xnt@123456
